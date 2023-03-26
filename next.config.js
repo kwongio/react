@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: true
+  trailingSlash: true,
+  generateBuildId : () => "rldh9037_deploy"
 }
 
 module.exports = nextConfig
