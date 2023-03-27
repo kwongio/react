@@ -6,7 +6,7 @@ const Index = () => {
 
     return (
         <div>
-            동적페이지입니다. {router.query.boardId}
+            동적df페이지입니다. {router.query.boardId}
         </div>
     );
 };
